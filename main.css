@@ -1,0 +1,79 @@
+body {
+    background: url(BioArchives/IMGS/BgDoom.jpg);
+    text-align: center;
+
+}
+
+.contentDIV {
+    width: 780px;
+    border: #ff00008f 2.5px solid;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.096);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.678)), url(BioArchives/GIFS/head1.gif)
+    
+
+}
+
+.AboutDoomClass {
+    transition: filter 0.1s ease-in-out;
+    user-select: none;
+    margin-top: 15.5px;
+
+}
+
+.AboutDoomClass:hover {
+    filter: brightness(50%);
+    
+}
+
+.about {
+    color: #ff0000;
+    font-size: 20.5px;
+    margin: 15.5px;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15.5px;
+}
+
+.PlayAudioBUTTON {
+    width: 200px;
+    user-select: none;
+    transition: filter 0.05s ease-in-out;
+    cursor: pointer;
+
+}
+
+.PlayAudioBUTTON:hover {
+    filter: brightness(50%);
+
+}
+
+/* for mobile */
+@media only screen and (max-width: 768px) {
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+
+    /* gap: 0 1.5rem; */
+
+}
+
+.Cybr1 {
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+}
+
+
+
+
+
+
+
+}
