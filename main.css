@@ -49,6 +49,18 @@ body {
 
 }
 
+.ProjectsDoomClass {
+    transition: filter 0.1s ease-in-out;
+    user-select: none;
+    margin-top: 15.5px;
+
+}
+
+.ProjectsDoomClass:hover {
+    filter: brightness(50%);
+}
+
+
 /* for mobile */
 @media only screen and (max-width: 768px) {
 
